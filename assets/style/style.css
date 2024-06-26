@@ -261,10 +261,89 @@ nav ul li a:hover{
 
 }
 
+.game-gta5-box> h2 { 
+   
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
 
+.game-gta5-box > p {
+    text-shadow: var(--text-shadow);
+    font-weight: 600;
+    color: #ffff;
+    opacity: 0.9;
+    font-size: 1.6rem;
+    
+}
 
+.game-gta6-part-one-content> h2 { 
+   
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
 
+.game-gta6-part-one-content > p {
+    text-shadow: var(--text-shadow);
+    font-weight: 600;
+    color: #ffff;
+    opacity: 0.9;
+    font-size: 1.6rem;
+    
+}
 
+.game-gta6-part-two-content > h2 { 
+   
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.game-gta6-part-two-content > p {
+    text-shadow: var(--text-shadow);
+    font-weight: 600;
+    color: #ffff;
+    opacity: 0.9;
+    font-size: 1.6rem;
+    
+}
+
+.about-content > h2 { 
+   
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-content > p {
+    text-shadow: var(--text-shadow);
+    font-weight: 600;
+    color: #ffff;
+    opacity: 0.9;
+    font-size: 1.6rem;
+    
+}
 
 
 
