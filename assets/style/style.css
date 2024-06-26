@@ -543,9 +543,22 @@ nav ul li a:hover{
     
 }
 
+.list-ref-box{
+    text-decoration: none;
+}
+
+footer {
+    padding: 1rem 0 0.1rem ;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+  }
 footer ul {
+    font-family: "Bebas Neue", sans-serif;
     list-style-type: none;
     padding: 0;
+    background-color: #000000;
 }
   footer ul li {
     display: inline;
