@@ -1,8 +1,9 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 :root{
-    --text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.8);
+    --text-shadow: 4px 3px 1px rgba(0, 0, 0, 0.6);
 }
 
 body{
@@ -33,7 +34,7 @@ section {
     background-image: url(img/gta-background-home.png);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.5; 
+    opacity: 0.3; 
     z-index: -1;
 }
 
@@ -353,6 +354,48 @@ nav ul li a:hover{
 }
 
 
+#game-gta6-part-one {
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 1rem;
+}
+
+#game-gta6-part-one::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url(img/background-gta-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2; 
+    z-index: -1;
+}
+
+#game-gta6-part-one-video {
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    height: 100%; 
+}
+
+#game-gta6-part-one-video iframe {
+    width: 100%;
+    max-width: 560px;
+    box-shadow: 5px 5px 10px ;
+    border: 0px solid #000000; 
+    box-sizing: border-box;
+}
+
+
+
+
 
 .game-gta6-part-one-content> h2 { 
 
@@ -366,13 +409,65 @@ nav ul li a:hover{
     margin-bottom: 1rem;
 }
 
-.game-gta6-part-one-content > p {
+.game-gta6-part-one-content > p { 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-shadow: var(--text-shadow);
-    font-weight: 600;
+    font-weight: 700;
     color: #ffff;
     opacity: 0.9;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    margin: 7rem;
+    text-align: justify;
     
+}
+.game-gta6-part-one-content h2 > a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2.8rem;
+    transition: color 0.3s ease;
+}
+.game-gta6-part-one-content h2 > a:hover{
+    color: #e595fd;
+    font-weight: 500;
+
+}
+
+.game-gta6-part-one-content p > a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+}
+
+.game-gta6-part-one-content p > a:hover{
+    color: #e595fd;
+
+}
+
+#game-gta6-part-two {
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 1rem;
+}
+
+#game-gta6-part-two::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url(img/background-gta6-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2; 
+    z-index: -1;
 }
 
 .game-gta6-part-two-content > h2 { 
@@ -392,9 +487,37 @@ nav ul li a:hover{
     font-weight: 600;
     color: #ffff;
     opacity: 0.9;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    margin: 9rem;
+    text-align: justify;
+    
     
 }
+
+#about {
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 1rem;
+}
+
+#about::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url(img/ocean-backgroubd-gta-5-live.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2; 
+    z-index: -1;
+}
+
 
 .about-content > h2 { 
    
@@ -405,7 +528,7 @@ nav ul li a:hover{
     font-style: normal;
     color: #ffff;
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    
 }
 
 .about-content > p {
@@ -413,11 +536,28 @@ nav ul li a:hover{
     font-weight: 600;
     color: #ffff;
     opacity: 0.9;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    line-height: 1.7;
+    margin: 1rem;
+    padding: 3rem;
     
 }
 
-
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+  footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+  footer ul li a:hover {
+    text-decoration: underline
+}
 
 
 
