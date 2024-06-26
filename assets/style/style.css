@@ -14,8 +14,9 @@ body{
 }
 
 section {
-    height: 100vh;
+    height: 102vh;
     background-position: center; 
+
 }
 #home{
     height: 100%;
@@ -121,6 +122,8 @@ nav ul li a:hover{
 #history{
     position: relative;
     overflow: hidden;
+    padding: 1rem;
+    
 }
 #history::before{
     content: "";
@@ -181,6 +184,7 @@ nav ul li a:hover{
 #game-part-one {
     position: relative;
     overflow: hidden;
+    padding: 1rem;
 }
 
 #game-part-one::before {
@@ -249,41 +253,109 @@ nav ul li a:hover{
     
 }
 
-.game-part-one-box h2 a{
+
+.game-part-one-box a{
+    font-weight: 500;
+    color: #ffffff;
     list-style: none;
     text-decoration: none;
-    color: inherit;
-    font-size: 3.1rem;
     transition: color 0.3s ease;
 
-}game-part-one-box h2 a:hover{
-    color: #fbff07
+}
+.game-part-one-box p a:hover{
+    color: #a0bd9f
 
 }
 
-.game-gta5-box> h2 { 
-   
-    text-align: center;
+
+
+#game-gta5 {
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 1rem;
+}
+
+#game-gta5::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url(img/night-cityscape-buildings-video-game-gta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2; 
+    z-index: -1;
+}
+
+#game-gta5-img img {
+    flex: 0 0;
+    max-width: 100%;
+    height: auto;
+    width: 950px;
+    padding-right: 10rem;
+}
+
+.game-gta5-box {
+    margin: auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    max-width: 900px;
+
+}
+
+.game-gta5-box > h2 {
     text-shadow: var(--text-shadow);
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #ffff;
-    font-size: 2.5rem;
+    color: #fff;
+    font-size: 3rem;
     margin-bottom: 1rem;
+    padding-right: 8rem;
 }
 
 .game-gta5-box > p {
     text-shadow: var(--text-shadow);
     font-weight: 600;
-    color: #ffff;
+    color: #fff;
     opacity: 0.9;
     font-size: 1.6rem;
+}
+.game-gta5-box > h2 {
+    text-shadow: var(--text-shadow);
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.game-gta5-box h2 a{
+    list-style: none;
+    text-decoration: none;
+    color: #0aff02;
+    font-size: 3.2rem;
+    transition: color 0.3s ease;
+
+}.game-gta5-box h2 a:hover{
     
+    color: #b3b3b3
+
 }
 
+
+
 .game-gta6-part-one-content> h2 { 
-   
+
     text-align: center;
     text-shadow: var(--text-shadow);
     font-family: "Bebas Neue", sans-serif;
