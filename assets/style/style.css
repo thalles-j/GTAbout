@@ -6,6 +6,10 @@
     --text-shadow: 4px 3px 1px rgba(0, 0, 0, 0.6);
 }
 
+html{
+    scroll-behavior: smooth; 
+    scroll-behavior: 2s;
+}
 body{
     margin: 0;
     padding: 0;
@@ -614,6 +618,9 @@ footer ul {
   footer ul li a:hover {
     text-decoration: underline
 }
+
+
+
 @media (max-width: 768px) {
 
     body {
