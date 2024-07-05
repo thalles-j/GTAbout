@@ -6,10 +6,52 @@
     --text-shadow: 4px 3px 1px rgba(0, 0, 0, 0.6);
 }
 
+
 html{
     scroll-behavior: smooth; 
     scroll-behavior: 2s;
 }
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: opacity 2s ease-out; /* Transição mais lenta */
+  }
+  
+  .letter {
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: shine 3s infinite, colorChange 3s infinite;
+    font-family: 'Anton', sans-serif; /* Aplicação da fonte Anton */
+  }
+  
+  @keyframes shine {
+    0%, 100% {
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6);
+    }
+  }
+  
+  @keyframes colorChange {
+    0%, 100% {
+      color: black;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
 body{
     margin: 0;
     padding: 0;
